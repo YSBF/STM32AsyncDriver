@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libconnectivity.a  CMakeFiles/connectivity.dir/SPI.cpp.o CMakeFiles/connectivity.dir/UART.cpp.o CMakeFiles/connectivity.dir/ADC.cpp.o
+arm-none-eabi-ranlib libconnectivity.a

@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libbno055.a  CMakeFiles/bno055.dir/BNO055.cpp.o CMakeFiles/bno055.dir/bno055.c.o CMakeFiles/bno055.dir/bno055_support.c.o CMakeFiles/bno055.dir/future.cpp.o
+arm-none-eabi-ranlib libbno055.a

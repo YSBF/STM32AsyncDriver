@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/BNO055.cpp
+BNO055.h
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/BNO055.h
+
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/BNO055.h
+cstdint
+-
+cstring
+-
+functional
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/functional
+sensor.h
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/sensor.h
+
+/home/ysbf/Projects/CLionProjects/BNO055Driver/src/bno055/sensor.h
+

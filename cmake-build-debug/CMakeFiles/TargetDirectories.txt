@@ -1,0 +1,13 @@
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/CMakeFiles/BNO055Driver.bin.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/CMakeFiles/BNO055Driver.elf.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/CMakeFiles/rebuild_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/CMakeFiles/edit_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/CMakeFiles/connectivity.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/CMakeFiles/edit_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/CMakeFiles/rebuild_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/CMakeFiles/std_periph_driver.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/CMakeFiles/rebuild_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/CMakeFiles/edit_cache.dir
+/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/CMakeFiles/bno055.dir

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BNO055Driver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\connectivity\;CMake Files\lib\;CMake Files\lib\STM32F4xx_StdPeriph_Driver\;CMake Files\src\;CMake Files\src\bno055\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BNO055Driver.bin">
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 BNO055Driver.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BNO055Driver.elf">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/BNO055Driver.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 BNO055Driver.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BNO055Driver.elf/fast">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/BNO055Driver.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 BNO055Driver.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="connectivity">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/libconnectivity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 connectivity"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="connectivity/fast">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/libconnectivity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 connectivity/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/connectivity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_periph_driver">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/libstd_periph_driver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 std_periph_driver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_periph_driver/fast">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/libstd_periph_driver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 std_periph_driver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/lib/STM32F4xx_StdPeriph_Driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bno055">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/libbno055.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 bno055"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bno055/fast">
+				<Option output="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/libbno055.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F40_41xxx"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DHSE_VALUE=25000000"/>
+					<Add option="-DUSE_USB_OTG_FS"/>
+					<Add option="-DUSE_FULL_ASSERT"/>
+					<Add option="-D__VFP_FP__"/>
+					<Add option="-DBNO055_API"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/."/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/etl"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32_USB_Device_Library/inc"/>
+					<Add directory="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/inc"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 bno055/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ysbf/Project/CLion/STM32AsyncDriver/cmake-build-debug/src/bno055/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/ADC.cpp">
+			<Option target="connectivity"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/SPI.cpp">
+			<Option target="connectivity"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/SPI.h">
+			<Option target="connectivity"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/UART.cpp">
+			<Option target="connectivity"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/UART.h">
+			<Option target="connectivity"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/misc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c">
+			<Option target="std_periph_driver"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/BNO055.cpp">
+			<Option target="BNO055Driver.elf"/>
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/BNO055.h">
+			<Option target="BNO055Driver.elf"/>
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/bno055.c">
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/bno055.h">
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/bno055_support.c">
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/future.cpp">
+			<Option target="BNO055Driver.elf"/>
+			<Option target="bno055"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/l3gd20/l3gd20.cpp">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/l3gd20/l3gd20.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/main.cpp">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/mpu9250/mpu9250.cpp">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/mpu9250/mpu9250.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/Schedule.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/debug.cpp">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/debug.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/iwdg.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/iwdg.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/led.cpp">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/led.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/lowlevel_init.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/lowlevel_init.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/startup_stm32f40_41xxx.s">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/stm32f4xx_it.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/system_stm32f4xx.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/systemtime.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/systemtime.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/wwdg.c">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/system/wwdg.h">
+			<Option target="BNO055Driver.elf"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/toolchain_set.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/connectivity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\connectivity\"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/lib/STM32F4xx_StdPeriph_Driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\STM32F4xx_StdPeriph_Driver\"/>
+		</Unit>
+		<Unit filename="/home/ysbf/Project/CLion/STM32AsyncDriver/src/bno055/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bno055\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
